@@ -1,0 +1,21 @@
+
+.TextAreaElement {
+    width: 100%;
+    outline: none;
+    border: 2px solid #eee;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    box-sizing: border-box;
+    resize: none;
+    height: 100%;
+}
+
+.TextAreaElement:focus {
+    outline: none;
+}
+
+.Invalid {
+    border: 1px solid indianred;
+}

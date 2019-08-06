@@ -1,0 +1,12 @@
+.MCQQuestions {
+    display: grid;
+    margin-left: 20px;
+    justify-content: left;
+    text-align: left;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+
+}

@@ -1,0 +1,14 @@
+.MCQTable {
+    width: 100%;
+
+}
+
+.MCQTable::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+

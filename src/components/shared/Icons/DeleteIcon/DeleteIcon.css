@@ -1,0 +1,7 @@
+.DeleteIcon {
+    color: green;
+}
+
+.DeleteIcon:hover {
+    fill: indianred;
+}

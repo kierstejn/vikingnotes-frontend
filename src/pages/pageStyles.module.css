@@ -1,0 +1,12 @@
+.containerMobile {
+    margin: 20px;
+}
+
+.containerDesktop {
+    margin: 40px;
+}
+
+.authenticationDesktop {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+}

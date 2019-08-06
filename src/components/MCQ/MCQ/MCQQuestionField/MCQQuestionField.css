@@ -1,0 +1,26 @@
+.MCQQuestionField {
+    width: 100%;
+    height: fit-content;
+
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    overflow-wrap: normal;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.MCQQuestionField:hover {
+    cursor: pointer;
+}
+
+.Wrong {
+    background-color: darkred;
+    color: white;
+}
+
+.Right {
+    background-color: green;
+    color: white;
+}

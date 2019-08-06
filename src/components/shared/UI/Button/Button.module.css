@@ -1,0 +1,12 @@
+.Button {
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    width: auto;
+    height: 100%;
+    vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+.NotificationBar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 40px;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+
+.NotificationBar label:hover {
+    cursor: pointer;
+}

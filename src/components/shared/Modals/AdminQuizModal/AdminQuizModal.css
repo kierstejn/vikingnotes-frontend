@@ -1,0 +1,23 @@
+.AdminQuizModal {
+    width: 100%;
+    height: auto;
+    /*Padding er det inde i boxen*/
+    padding: 15px;
+    justify-content: left;
+    text-align: left;
+    background-color: white;
+}
+
+.AdminQuizModal hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.AdminQuizModal .Buttongroup Button {
+    float: right;
+}

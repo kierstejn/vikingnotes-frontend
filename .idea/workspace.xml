@@ -1,18 +1,560 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ChangeListManager">
+    <list default="true" id="1fca54d1-70dd-4e06-95c6-d2cdb2e51b04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/specs/auth_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/specs/sample_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/vikingnotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Login/Login.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Login/LoginHelperMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Login/LoginView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Login/LoginView.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Logout/Logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Register/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Register/Register.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Register/RegisterView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Register/RegisterView.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/ImageUpload/ImageUpload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/ImageUpload/ImageUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionFormular/QuestionFormular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionFormular/QuestionFormular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionFormular/QuestionFormular.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionFormular/__snapshots__/QuestionFormular.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/__snapshots__/QuestionList.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionListItem/QuestionListItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionListItem/QuestionListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionListItem/QuestionListItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionListItem/__snapshots__/QuestionListItem.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuizInfoFormular/QuizInfoFormular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuizInfoFormular/QuizInfoFormular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQ.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQQuestionField/MCQQuestionField.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQQuestionField/MCQQuestionField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQQuestions/MCQQuestions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQQuestions/MCQQuestions.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQListView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQTable/MCQTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQTable/MCQTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQTable/MCQTableElement/MCQTableElement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQTable/MCQTableElement/MCQTableElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Icons/DeleteIcon/DeleteIcon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Icons/DeleteIcon/DeleteIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/AdminQuizModal/AdminQuizModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/AdminQuizModal/AdminQuizModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/AdminUserModal/AdminUserModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/AdminUserModal/AdminUserModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/DeleteConfirmationBox/DeleteConfirmationBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/DeleteConfirmationBox/DeleteConfirmationBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/MCQTakeQuizModal/MCQTakeQuizModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Modals/MCQTakeQuizModal/MCQTakeQuizModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Backdrop/Backdrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Backdrop/Backdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Box/Box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Box/Box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/ButtonSpinner/ButtonSpinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/ButtonSpinner/ButtonSpinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/ImageUpload/ImageUpload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/ImageUpload/ImageUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Input/Input.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Label/Label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Label/Label.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Label/Label.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Modal/Modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/SelectBox/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/SelectBox/SelectBox.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Spinner/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/Spinner/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/TextArea/TextArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/UI/TextArea/TextArea.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/NotificationBar/NotificationBar/NotificationBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/NotificationBar/NotificationBar/NotificationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/NotificationBar/notificationBarActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/NotificationBar/notificationBarReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Toolbar/Toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Toolbar/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CreateMCQPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MCQListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MCQpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/pageStyles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/authenticationActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/createMcqActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/mcqActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/mcqListActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/authenticationReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/createMcqReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/mcqListReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/mcqReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas/authenticationSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas/createMcqSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas/mcqListSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas/mcqSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/shuffle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/updateObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/validate/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/validate/validate.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vikingnotes-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vikingnotes-frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-843910117">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="43" />
+          <entry key="development" value="1" />
+          <entry key="env" value="4" />
+          <entry key="eslintignore" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="info" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="332" />
+          <entry key="json" value="28" />
+          <entry key="md" value="1" />
+          <entry key="png" value="4" />
+          <entry key="production" value="1" />
+          <entry key="snap" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="43" />
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="28" />
+          <entry key="JavaScript" value="332" />
+          <entry key="Jest Snapshot" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="674" />
+          <entry key="development" value="22" />
+          <entry key="env" value="50" />
+          <entry key="eslintignore" value="24" />
+          <entry key="gitignore" value="9" />
+          <entry key="js" value="16439" />
+          <entry key="json" value="412" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="674" />
+          <entry key="JSON" value="412" />
+          <entry key="JavaScript" value="16439" />
+          <entry key="PLAIN_TEXT" value="105" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/store/axios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/actions/authenticationActions.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/sagas/authenticationSaga.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Authentication/Login/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/sagas/createMcqSaga.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/sagas/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/actionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/sagas/mcqSaga.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fadl-remake" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/util/shuffle.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/mcqListReducer.js" />
+        <option value="$PROJECT_DIR$/src/pages/MCQListPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/MCQpage.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQQuestions/MCQQuestions.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQQuestionField/MCQQuestionField.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQListView.js" />
+        <option value="$PROJECT_DIR$/src/components/shared/Modals/MCQTakeQuizModal/MCQTakeQuizModal.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/mcqActions.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/mcqReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.test.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/createMCQActions.js" />
+        <option value="$PROJECT_DIR$/src/store/sagas/index.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQView.js" />
+        <option value="$PROJECT_DIR$/src/pages/CreateMCQPage.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/ImageUpload/ImageUpload.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionListItem/QuestionListItem.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.css" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/Button/Button.js" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/Button/Button.module.css" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.css" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/Input/Input.module.css" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/TextArea/TextArea.css" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/TextArea/TextArea.js" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/SelectBox/SelectBox.module.css" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/SelectBox/SelectBox.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuizInfoFormular/QuizInfoFormular.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionFormular/QuestionFormular.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/MCQList/MCQList.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQ.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/MCQ/MCQ.module.css" />
+        <option value="$PROJECT_DIR$/.env.development" />
+        <option value="$PROJECT_DIR$/.env.production" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/shared/UI/ButtonSpinner/ButtonSpinner.css" />
+        <option value="$PROJECT_DIR$/src/store/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/createMcqActions.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/createMcqReducer.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.js" />
+        <option value="$PROJECT_DIR$/src/pages/routes.js" />
+        <option value="$PROJECT_DIR$/src/components/App/App.js" />
+        <option value="$PROJECT_DIR$/src/hoc/Layout/Toolbar/Toolbar.js" />
+        <option value="$PROJECT_DIR$/src/store/sagas/createMcqSaga.js" />
+        <option value="$PROJECT_DIR$/src/store/sagas/mcqListSaga.js" />
+        <option value="$PROJECT_DIR$/src/store/sagas/mcqSaga.js" />
+        <option value="$PROJECT_DIR$/src/store/sagas/authenticationSaga.js" />
+        <option value="$PROJECT_DIR$/src/components/Authentication/Login/Login.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/store/axios.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="803" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="Toolbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vikingnotes-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vikingnotes-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="sagas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/reducers" />
+      <recent name="$PROJECT_DIR$/src/store/actions" />
+      <recent name="$PROJECT_DIR$/src/components/MCQ/CreateMCQ" />
+      <recent name="$PROJECT_DIR$/src/util" />
+      <recent name="$PROJECT_DIR$/cypress/integration/specs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store" />
+      <recent name="$PROJECT_DIR$/src/components/MCQ/CreateMCQ" />
+      <recent name="$PROJECT_DIR$/src/components/shared/UI" />
+      <recent name="$PROJECT_DIR$/src/components/MCQ" />
+      <recent name="$PROJECT_DIR$/src/components/MCQ/MCQ" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -25,5 +567,452 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fca54d1-70dd-4e06-95c6-d2cdb2e51b04" name="Default Changelist" comment="" />
+      <created>1561487251556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561487251556</updated>
+      <workItem from="1561487253349" duration="38295000" />
+      <workItem from="1562329682385" duration="17291000" />
+      <workItem from="1563901254216" duration="56010000" />
+      <workItem from="1565035047658" duration="10134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="121730000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8257757" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" sideWeight="0.17422435" side_tool="true" visible="true" weight="0.24947146" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28313252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41068918" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionListItem/QuestionListItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionList/QuestionList.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Authentication/Login/LoginView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/Button/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/Button/Button.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/Input/Input.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/Input/Input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/TextArea/TextArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/TextArea/TextArea.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/SelectBox/SelectBox.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/SelectBox/SelectBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuizInfoFormular/QuizInfoFormular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="64" column="42" lean-forward="true" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/QuestionFormular/QuestionFormular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/MCQList/MCQList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/MCQ/MCQ.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/MCQ/MCQ.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/mcqListActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1271" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/ButtonSpinner/ButtonSpinner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/UI/ButtonSpinner/ButtonSpinner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/mcqReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="10" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/createMcqReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/mcqActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/createMcqActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MCQ/CreateMCQ/CreateMCQ.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="40" selection-start-line="16" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Toolbar/Toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/sagas/mcqListSaga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/authenticationActions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/sagas/authenticationSaga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Authentication/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/sagas/createMcqSaga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/sagas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/sagas/mcqSaga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>

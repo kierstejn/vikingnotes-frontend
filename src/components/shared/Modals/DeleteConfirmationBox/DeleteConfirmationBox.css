@@ -1,0 +1,9 @@
+.DeleteConfirmationBox {
+    width: 100%;
+    height: auto;
+    /*Padding er det inde i boxen*/
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+

@@ -1,0 +1,37 @@
+
+.ImageUpload .Hover:hover {
+  cursor: pointer;
+}
+
+.ImageUpload {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.DropZone {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: center;
+  height: 100%;
+  width: calc(100% - 20px);
+  max-width: 100%;
+  border: 1px dashed gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.DropZone:focus {
+  outline: 0;
+}
+
+.DropZone p {
+  margin: 0;
+}
+
+.DropZone .PictureDescription {
+  white-space: nowrap;
+  overflow: hidden;
+
+}
