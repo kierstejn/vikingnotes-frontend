@@ -16,12 +16,10 @@
     display: flex;
     padding: 0 10px;
     align-items: center;
-
-
 }
 
 .Hover:hover {
-    background-color: #d9effd;
+    background-color: #EEF0F2;
     cursor: pointer;
     transition: 0.2s;
 }

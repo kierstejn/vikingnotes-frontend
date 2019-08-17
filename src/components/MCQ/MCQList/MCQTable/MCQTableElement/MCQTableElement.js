@@ -1,7 +1,7 @@
 import React from 'react';
 import './MCQTableElement.css';
 
-const mcqtableelement = (props) => {
+const MCQTableElement = (props) => {
 
     let style = {
         display: 'grid',
@@ -35,4 +35,4 @@ const mcqtableelement = (props) => {
     )
 };
 
-export default mcqtableelement;
+export default MCQTableElement;

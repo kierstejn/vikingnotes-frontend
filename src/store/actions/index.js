@@ -8,7 +8,8 @@ export {
     registerSuccess,
     registerFail,
     logout,
-    logoutInitiate
+    logoutInitiate,
+    authCheckState
 } from './authenticationActions';
 
 export {
@@ -32,6 +33,6 @@ export {
     createMcqEnd,
     uploadMcqSuccess,
     uploadMcqStart,
-	uploadMcqFail,
-	uploadMcqInitiate
+    uploadMcqFail,
+    uploadMcqInitiate
 } from './createMcqActions'

@@ -21,7 +21,7 @@
 .loader:before {
     width: 50%;
     height: 50%;
-    background: lightblue;
+    background: rgb(120,14,33);
     border-radius: 100% 0 0 0;
     position: absolute;
     top: 0;

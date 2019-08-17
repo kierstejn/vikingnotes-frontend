@@ -23,8 +23,8 @@ export class CreateMCQ extends Component {
         showValidity: false,
         error: false,
 
-        semesters: [1,2,3,4,5,6,7,8,9,10],
-        subjects: ["Hjerte", "Fysiologi", "Muskler"],
+        chapters: [1,2,3,4,5,6,7,8,9,10],
+        books: ["Forskning i sundhed - 2. udgave", "Medicin - 2. udgave", "Klinisk neuropsykiatri - 3. udgave"],
 
         mcq: {
             id: '',
@@ -240,8 +240,8 @@ export class CreateMCQ extends Component {
                 semester={this.state.mcq.semester}
                 subject={this.state.mcq.subject}
                 description={this.state.mcq.description}
-                semesters={this.state.semesters}
-                subjects={this.state.subjects}
+                books={this.state.books}
+                chapters={this.state.chapters}
 
                 rules={this.state.rules}
                 showValidity={this.state.showValidity}
@@ -291,9 +291,8 @@ export class CreateMCQ extends Component {
                         alignItems: 'center',
                         justifyContent: 'space-between'
                     }}
-                    onClick={this.onSubmitClicked}
                     type={"submit"}
-                    >Gem Quiz{this.props.uploading ? <ButtonSpinner/> : null}</Button>
+                    >Publicer Quiz{this.props.uploading ? <ButtonSpinner/> : null}</Button>
                 </div>
             </div>
         )

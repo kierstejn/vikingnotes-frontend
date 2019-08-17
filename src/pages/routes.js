@@ -7,7 +7,7 @@ import Logout from '../components/Authentication/Logout/Logout';
 import MCQListPage from './MCQListPage';
 import MCQPage from './MCQpage'
 import CreateMCQPage from './CreateMCQPage';
-
+import CreateBookPage from './CreateBookPage';
 
 class CreateMCQ extends Component {}
 
@@ -38,6 +38,7 @@ class CreateMCQ extends Component {}
         <Route path="/mcq/list" component={MCQListPage}/>
         <Route path={"/mcq/create"} component={CreateMCQPage}/>
         <Route path={"/mcq/:id"} component={MCQPage}/>
+		<Route path={"/book/create"} component={CreateBookPage}/>
         <Route path="/" component={() => (<div>index</div>)} />
     </Switch>
 );

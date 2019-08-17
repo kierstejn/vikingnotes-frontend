@@ -3,7 +3,7 @@ import './MCQTable.css';
 import Box from '../../../shared/UI/Box/Box';
 import MCQTableElement from './MCQTableElement/MCQTableElement';
 
-const mcqtable = (props) => {
+const MCQTable = (props) => {
 
 
     let list = null;
@@ -39,4 +39,4 @@ const mcqtable = (props) => {
     );
 };
 
-export default mcqtable;
+export default MCQTable;

@@ -10,18 +10,24 @@ const toolbar = props => (
         <Menu size="large">
             {props.isAuthenticated ?
                 <Fragment>
+					<Menu.Item name="Books">
+						<NavLink style={{color: "rgb(120,14,33)"}} to="/book/list">Bøger</NavLink>
+					</Menu.Item>
                     <Menu.Item name="Quizzer">
-                        <NavLink to="/mcq/list">Quizzer</NavLink>
+                        <NavLink style={{color: "rgb(120,14,33)"}} to="/mcq/list">Quizzer</NavLink>
                     </Menu.Item>
                     <Menu.Item name="CreateMCQ">
-                        <NavLink to="/mcq/create">Opret quiz</NavLink>
+                        <NavLink style={{color: "rgb(120,14,33)"}} to="/mcq/create">Opret quiz</NavLink>
                     </Menu.Item>
+					<Menu.Item name="CreateMCQ">
+						<NavLink style={{color: "rgb(120,14,33)"}} to="/book/create">Opret bog</NavLink>
+					</Menu.Item>
 
                     <Menu.Menu position="right">
                         <Menu.Item
                             name="Logout"
                         >
-                            <NavLink to="/logout">Log ud</NavLink>
+                            <NavLink style={{color: "rgb(120,14,33)"}} to="/logout">Log ud</NavLink>
                         </Menu.Item>
                     </Menu.Menu>
                 </Fragment>
@@ -31,15 +37,15 @@ const toolbar = props => (
                     <Menu.Menu position="right">
                         <Fragment>
                             <Menu.Item name="Register">
-                                <NavLink to="/register">Opret bruger</NavLink>
+                                <NavLink style={{color: "rgb(120,14,33)"}} to="/register">Opret bruger</NavLink>
                             </Menu.Item>
 
                             <Menu.Item name="Login">
-                                <NavLink to="/login">Log ind</NavLink>
+                                <NavLink style={{color: "rgb(120,14,33)"}} to="/login">Log ind</NavLink>
                             </Menu.Item>
                         </Fragment>
                     </Menu.Menu>
-				</Fragment>
+                </Fragment>
             }
         </Menu>
 

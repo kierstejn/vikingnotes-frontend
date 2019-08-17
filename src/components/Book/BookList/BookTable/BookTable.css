@@ -1,0 +1,37 @@
+.BookTable {
+    width: 100%;
+
+}
+
+.BookTable .Header {
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    display: flex;
+    background-color: rgb(122, 143, 157);
+}
+
+.BookTable .Header div p {
+    text-align: left;
+    justify-items: center;
+    color: white;
+}
+
+.BookTable .Header div {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-collapse: collapse;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.BookTable::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+

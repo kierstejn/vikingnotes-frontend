@@ -6,6 +6,7 @@ export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
 export const LOGIN_FAIL = 'LOGIN_FAIL';
 export const LOGOUT_INITIATE = 'LOGOUT_INITIATE';
 export const LOGOUT = 'LOGOUT';
+export const AUTH_CHECK_STATE = 'AUTH_CHECK_STATE';
 
 //Register
 export const REGISTER_START = 'REGISTER_START';

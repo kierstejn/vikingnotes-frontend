@@ -1,0 +1,16 @@
+.ChapterTableElement {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.ChapterTableElement:hover {
+    background-color: #EEF0F2;
+    cursor: pointer;
+    transition: 0.2s;
+}
+

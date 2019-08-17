@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Toolbar from './Toolbar/Toolbar';
-import Logo from '../../assets/images/vikingnotes.png';
+import Logo from '../../assets/images/LOGO-RØD-1.jpg';
 import './Layout.css';
 import Footer from './Footer/Footer';
 import * as actions from "../../store/actions";
@@ -25,7 +25,7 @@ class Layout extends Component {
         const topBarStyle = {
             gridRow: 1,
             height: '100%',
-            backgroundColor: '#d9effd',
+            backgroundColor: '255',
             textAlign: 'center'
         };
 

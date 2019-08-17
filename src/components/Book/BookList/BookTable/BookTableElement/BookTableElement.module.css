@@ -1,0 +1,31 @@
+.BookTableElement {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+}
+
+.BookTableElement div {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-collapse: collapse;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.BookTableElement div::-webkit-scrollbar {
+    display: none;
+}
+
+.BookTableElement:hover {
+    background-color: #EEF0F2;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.BookTableElement .CellOverflow {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+

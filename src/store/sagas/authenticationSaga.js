@@ -2,7 +2,6 @@ import { put, takeEvery, delay } from 'redux-saga/effects'
 
 import axios from '../axios';
 
-
 import * as actions from '../actions/index';
 import * as actionTypes from '../actionTypes';
 
@@ -59,6 +58,21 @@ function* logout() {
 export function* watchLogout() {
     yield takeEvery(actionTypes.LOGOUT_INITIATE, logout);
 }
+
+function* authCheckStateSaga(action) {
+    const token = yield localStorage.getItem("token");
+    if (!token) {
+        yield put(actions.logout());
+    } else {
+	    const email = yield localStorage.getItem("email");
+	    yield put(actions.loginSuccess(token, email));
+    }
+}
+
+export function* watchAuthCheckStateSaga() {
+	yield takeEvery(actionTypes.AUTH_CHECK_STATE, authCheckStateSaga);
+}
+
 
 
 

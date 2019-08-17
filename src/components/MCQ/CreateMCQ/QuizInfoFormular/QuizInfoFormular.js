@@ -30,13 +30,13 @@ const quizinfoformular = (props) => {
         gridRow: 1
     };
 
-    let semesterSelectBoxStyle = {
+    let bookSelectBoxStyle = {
         gridColumnStart: 1,
         gridColumnEnd: 3,
         gridRow: 2
     };
 
-    let subjectSelectBoxStyle = {
+    let chapterSelectBoxStyle = {
         gridColumnStart: 3,
         gridColumnEnd: 5,
         gridRow: 2
@@ -58,24 +58,24 @@ const quizinfoformular = (props) => {
                 />
             </label>
 
-            <label style={semesterSelectBoxStyle}>
-                Semester:
+            <label style={bookSelectBoxStyle}>
+                Bøger:
                 <SelectBox
-                    label={"semester"}
+                    label={"bog"}
                     value={props.semester}
-                    options={props.semesters}
+                    options={props.books}
                     onChange={props.onSemesterChangedHandler}
                     valid={validate(props.rules.semester, props.semester)}
                     showValidity={props.showValidity}
                 />
             </label>
 
-            <label style={subjectSelectBoxStyle}>
-                Fag:
+            <label style={chapterSelectBoxStyle}>
+                Kapitler:
                 <SelectBox
-                    label={"fag"}
-                    value={props.subject}
-                    options={props.subjects}
+                    label={"kapitel"}
+                    value={props.semester}
+                    options={props.chapters}
                     onChange={props.onSubjectChangedHandler}
                     valid={validate(props.rules.subject, props.subject)}
                     showValidity={props.showValidity}

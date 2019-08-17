@@ -33,9 +33,9 @@ export const createMcqEnd = () => {
 };
 
 export const createMcqStart = () => {
-	return {
-		type: actionTypes.CREATE_MCQ_START
-	};
+    return {
+        type: actionTypes.CREATE_MCQ_START
+    };
 };
 
 
