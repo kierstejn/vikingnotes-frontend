@@ -29,14 +29,14 @@ const bookTable = (props) => {
                 </div>
             </div>
             <BookTableElement
-                image={BookImage1}
+                image={BookImage2}
                 title={"Forskning i sundhed"}
                 author={"Per Soelberg Sørensen, Bo Baslund, Ulla Feldt-Rasmussen, Jens Kastrup"}
                 edition={"2. udgave"}
 				onClick={() => props.onClickHandler(1)}
             />
 			<BookTableElement
-				image={BookImage2}
+				image={BookImage1}
 				title={"Medicin"}
 				author={"Jesper Krogh, Simon Francis Thomsen"}
 				edition={"2. udgave"}
