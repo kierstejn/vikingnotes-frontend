@@ -1,7 +1,8 @@
-.Footer {
+.footer {
     background-color: rgb(122, 143, 157);
-    height: 100%;
+    height: 30px;
     width: 100%;
     padding: 10px 20px;
     color: white;
+
 }

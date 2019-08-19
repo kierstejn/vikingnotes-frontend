@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
-import Toolbar from './Toolbar/Toolbar';
-import Logo from '../../assets/images/vikingnotes.png';
-import './Layout.css';
-import Footer from './Footer/Footer';
-import * as actions from "../../store/actions";
 import connect from "react-redux/es/connect/connect";
+
+import Navbar from './Navbar/Navbar';
+import Logo from '../../assets/images/vikingnotes.png';
+import * as styles from './Layout.module.css';
+import Footer from './Footer/Footer';
+
 
 
 class Layout extends Component {
@@ -15,39 +15,16 @@ class Layout extends Component {
 
         const {role, isAuthenticated, children} = this.props;
 
-        const layoutStyle = {
-            display: 'grid',
-            gridTemplateRows: '130px 50px auto 50px',
-            gridTemplateColumns: '1fr',
-            minHeight: '100vh'
-        };
-
-        const topBarStyle = {
-            gridRow: 1,
-            height: '100%',
-            backgroundColor: '#d9effd',
-            textAlign: 'center'
-        };
-
-        const pictureStyle = {
-            height: '100px',
-            margin: '15px'
-        };
-
         return (
-            <div className={"Layout"} style={layoutStyle}>
-                <div style={topBarStyle}>
-                    <img src={Logo} style={pictureStyle}/>
+            <div className={styles.layout}>
+                <div className={styles.layout__topbar}>
+                    <img src={Logo} className={styles.layout__topbarImage}/>
                 </div>
-
-                <Toolbar role={role} isAuthenticated={isAuthenticated} style={{gridRow: 2, height: '100%'}}/>
-
-                <div style={{gridRow: 3}}>
-                    <div>
-                        {children}
-                    </div>
+                <Navbar/>
+                <div>
+                    {children}
                 </div>
-                <Footer style={{gridRow: 4}}/>
+                <Footer/>
             </div>
         )
     }
