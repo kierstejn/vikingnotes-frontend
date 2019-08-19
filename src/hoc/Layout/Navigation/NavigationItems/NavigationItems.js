@@ -1,15 +1,22 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 import * as styles from './NavigationItems.module.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = ( props ) => (
     <ul className={styles.NavigationItems}>
-        <NavigationItem link="/" exact>Burger Builder</NavigationItem>
-        {props.isAuthenticated ? <NavigationItem link="/orders">Orders</NavigationItem> : null}
-        {!props.isAuthenticated
-            ? <NavigationItem link="/auth">Authenticate</NavigationItem>
-            : <NavigationItem link="/logout">Logout</NavigationItem>}
+        {props.isAuthenticated ?
+            <Fragment>
+                <NavigationItem link="/quiz/list">quizzer</NavigationItem>
+                <NavigationItem link="/quiz/create" exact>opret quiz</NavigationItem>
+				<NavigationItem link="/logout">log ud</NavigationItem>
+            </Fragment>
+            :
+            <Fragment>
+                <NavigationItem link="/register">opret bruger</NavigationItem>
+				<NavigationItem link="/login">log ind</NavigationItem>
+            </Fragment>
+        }
     </ul>
 );
 

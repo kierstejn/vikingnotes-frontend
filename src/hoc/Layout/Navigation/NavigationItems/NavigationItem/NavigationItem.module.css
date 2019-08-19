@@ -1,6 +1,6 @@
 .NavigationItem {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     width: 100%;
 }
 
@@ -8,16 +8,21 @@
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
-    display: block;
     color: black;
+    display: flex;
+    align-items: center;
 
+    font-size: 13px;
+    text-transform: uppercase;
 }
+
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
 
 }
+
 
 @media (min-width: 500px) {
     .NavigationItem {
@@ -30,14 +35,15 @@
 
     .NavigationItem a {
         height: 100%;
-        padding: 16px 10px;
+        padding: 12px 20px;
+        vertical-align: center;
         border-bottom: 4px solid transparent;
     }
 
     .NavigationItem a:hover,
     .NavigationItem a:active,
-    .NavigationItem a.active {
-        border-bottom: 4px solid #d9effd;
-
+    .NavigationItem a.active,
+    .NavigationItem h3 {
+        text-decoration: black;
     }
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import connect from "react-redux/es/connect/connect";
 
-import Navbar from './Navbar/Navbar';
 import Toolbar from './Navigation/Toolbar/Toolbar'
 import Logo from '../../assets/images/vikingnotes.png';
 import * as styles from './Layout.module.css';
@@ -18,11 +17,7 @@ class Layout extends Component {
 
         return (
             <div className={styles.layout}>
-                <div className={styles.layout__topbar}>
-                    <img src={Logo} className={styles.layout__topbarImage}/>
-                </div>
-                <Navbar/>
-                <Toolbar/>
+                <Toolbar isAuthenticated={isAuthenticated}/>
                 <div>
                     {children}
                 </div>

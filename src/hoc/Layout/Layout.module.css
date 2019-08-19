@@ -6,13 +6,9 @@
 
 .layout__topbar {
     height: 130px;
-    background-color: #d9effd;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.layout__topbarImage {
-    height: 100px;
 }
 

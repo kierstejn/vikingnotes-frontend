@@ -1,21 +1,21 @@
 .Toolbar {
-    height: 56px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     box-sizing: border-box;
-    z-index: 90;
     background-color: white;
+    padding: 10px 30px;
+
 }
 
 .Toolbar nav {
     height: 100%;
 }
 
-.Logo {
-    height: 80%;
+.Toolbar__Image {
+    height: 90px;
 }
 
 @media (max-width: 499px) {
