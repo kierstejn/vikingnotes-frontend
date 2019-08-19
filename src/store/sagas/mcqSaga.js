@@ -12,10 +12,10 @@ function* mcqFetch(action) {
     yield delay(1000);
     try {
         const response = yield axios.get(url);
-        //let updatedMcq = yield Object.assign({}, response.data);
-        // for (let i = 0; i < updatedMcq.questions.length; i++) {
-        //     yield shuffle(updatedMcq.questions[i].answers);
-        // }
+        let updatedMcq = yield Object.assign({}, response.data);
+        for (let i = 0; i < updatedMcq.questions.length; i++) {
+            yield shuffle(updatedMcq.questions[i].answers);
+        }
         yield put(actions.mcqFetchSuccess(response.data));
     }
     catch (error) {
