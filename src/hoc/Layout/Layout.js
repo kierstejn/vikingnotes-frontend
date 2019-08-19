@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import connect from "react-redux/es/connect/connect";
 
 import Navbar from './Navbar/Navbar';
+import Toolbar from './Navigation/Toolbar/Toolbar'
 import Logo from '../../assets/images/vikingnotes.png';
 import * as styles from './Layout.module.css';
 import Footer from './Footer/Footer';
@@ -21,6 +22,7 @@ class Layout extends Component {
                     <img src={Logo} className={styles.layout__topbarImage}/>
                 </div>
                 <Navbar/>
+                <Toolbar/>
                 <div>
                     {children}
                 </div>
