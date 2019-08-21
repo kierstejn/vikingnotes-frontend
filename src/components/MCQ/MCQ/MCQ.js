@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import {connect} from 'react-redux';
 
 import styles from './MCQ.module.css'
-import MCQHeader from "../../shared/UI/Header/Header";
 import MCQQuestions from './MCQQuestions/MCQQuestions';
 import Spinner from '../../shared/UI/Spinner/Spinner';
 import Button from '../../shared/UI/Button/Button';
@@ -63,8 +62,8 @@ class MCQ extends Component {
         if(mcq !== null && !loading){
             quiz = (
                 <div className={styles.MCQ}>
-                    <MCQHeader style={{paddingLeft: '20px', textAlign: 'left'}}>{mcq.title}</MCQHeader>
-                    <p style={{display: 'inline', float: 'right'}}>{index+1} / {mcq.questions.length}</p>
+                    <h2 className={styles.MCQHeader}>{mcq.title}</h2>
+                    <p className={styles.ProgressCounter}>{index+1} / {mcq.questions.length}</p>
 
                     <hr/>
                     <MCQQuestions question={mcq.questions[index]}

@@ -4,11 +4,11 @@ import * as styles from './NavigationItems.module.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = ( props ) => (
-    <ul className={styles.NavigationItems}>
+    <ul className={styles.NavigationItems} onClick={props.on}>
         {props.isAuthenticated ?
             <Fragment>
                 <NavigationItem link="/quiz/list">quizzer</NavigationItem>
-                <NavigationItem link="/quiz/create" exact>opret quiz</NavigationItem>
+                <NavigationItem link="/mcq/create">opret quiz</NavigationItem>
 				<NavigationItem link="/logout">log ud</NavigationItem>
             </Fragment>
             :

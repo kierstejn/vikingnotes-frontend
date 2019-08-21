@@ -28,7 +28,7 @@ const registerView = (props) => {
             {redirect}
             {isLoading ? <Spinner/> :
                 <Fragment>
-                    <h3 style={{gridRow: 1}}>Opret bruger</h3>
+                    <h3 style={{gridRow: 1}}>OPRET BRUGER</h3>
                     <form action="" style={style}>
                         <div style={{gridRow: 1}}>
                             <Input

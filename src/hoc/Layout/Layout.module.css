@@ -1,14 +1,11 @@
 .layout {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    flex-wrap: nowrap;
+    min-height: 100vh;
 }
 
-.layout__topbar {
-    height: 130px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.content {
+    height: auto;
 }
 

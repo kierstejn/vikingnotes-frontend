@@ -9,12 +9,12 @@ const registerPage = () => {
 
     return (
         <Fragment>
-            <MediaQuery maxWidth={499}>
+            <MediaQuery maxWidth={599}>
                 <div className={styles.containerMobile}>
                     <Register/>
                 </div>
             </MediaQuery>
-            <MediaQuery minWidth={500}>
+            <MediaQuery minWidth={600}>
                 <div className={`${styles.containerDesktop} ${styles.authenticationDesktop}`} >
                     <div style={{gridColumn: 2}}>
                         <Box>

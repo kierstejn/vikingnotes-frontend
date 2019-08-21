@@ -32,7 +32,7 @@ const loginview = (props) => {
             {redirect}
             {isLoading ? <Spinner/> :
                 <Fragment>
-                    <h3 style={{gridRow: 1}}>Login</h3>
+                    <h3 style={{gridRow: 1}}>LOG IND</h3>
                     {errorMessage}
                     <form onSubmit={handleLogin} style={style}>
                         <div style={{gridRow: 1}}>

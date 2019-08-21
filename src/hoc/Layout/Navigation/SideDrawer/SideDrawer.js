@@ -1,28 +1,27 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
-import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
-import classes from './SideDrawer.css';
-import Backdrop from '../../UI/Backdrop/Backdrop';
-import Aux from '../../../hoc/Aux/Aux';
+import * as styles from './SideDrawer.module.css';
+import Backdrop from '../../../../components/shared/UI/Backdrop/Backdrop';
 
 const sideDrawer = ( props ) => {
-    let attachedClasses = [classes.SideDrawer, classes.Close];
+    let attachedClasses = [styles.SideDrawer, styles.Close];
+    let backdrop;
     if (props.open) {
-        attachedClasses = [classes.SideDrawer, classes.Open];
+        attachedClasses = [styles.SideDrawer, styles.Open];
+        backdrop = <Backdrop show={props.open} clicked={props.closed}/>
     }
     return (
-        <Aux>
-            <Backdrop show={props.open} clicked={props.closed}/>
-            <div className={attachedClasses.join(' ')} onClick={props.closed}>
-                <div className={classes.Logo}>
-                    <Logo />
-                </div>
-                <nav>
-                    <NavigationItems isAuthenticated={props.isAuth} />
+        <div>
+            <div className={styles.BackDrop}>
+			    {backdrop}
+			</div>
+            <div className={attachedClasses.join(' ')}>
+                <nav onClick={props.drawerToggleClicked}>
+                    <NavigationItems isAuthenticated={props.isAuthenticated} />
                 </nav>
             </div>
-        </Aux>
+        </div>
     );
 };
 

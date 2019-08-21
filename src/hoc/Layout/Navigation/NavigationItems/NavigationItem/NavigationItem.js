@@ -5,7 +5,7 @@ import * as styles from './NavigationItem.module.css';
 
 const navigationItem = ( props ) => (
     <li className={styles.NavigationItem}>
-        <a aria-current="true" href={props.link}><h3>{props.children}</h3></a>
+		<NavLink to={props.link}><h3>{props.children}</h3></NavLink>
     </li>
 );
 

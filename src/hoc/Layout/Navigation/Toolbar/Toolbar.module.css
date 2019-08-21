@@ -2,24 +2,44 @@
     height: 150px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     box-sizing: border-box;
     background-color: white;
     padding: 10px 30px;
-
+    justify-content: space-between;
 }
+
+.ToolbarLeft {
+    justify-content: left;
+}
+
+.ToolbarRight {
+    align-items: flex-end;
+}
+
 
 .Toolbar nav {
     height: 100%;
 }
 
 .Toolbar__Image {
-    height: 90px;
+    width: 20vw;
+    height: auto;
 }
 
-@media (max-width: 499px) {
+@media (max-width: 599px) {
+    .Toolbar__Image,
     .DesktopOnly {
         display: none;
     }
+
+    .Toolbar {
+        height: 60px;
+        padding: 10px 10px;
+        background-color: rgb(122, 143, 157);
+        justify-content: flex-end;
+    }
 }
+
+

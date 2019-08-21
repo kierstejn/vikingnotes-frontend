@@ -6,25 +6,48 @@ import Toolbar from './Navigation/Toolbar/Toolbar'
 import Logo from '../../assets/images/vikingnotes.png';
 import * as styles from './Layout.module.css';
 import Footer from './Footer/Footer';
+import SideDrawer from './Navigation/SideDrawer/SideDrawer';
 
 
 
 class Layout extends Component {
 
-    render(){
+	state = {
+	    showSideDrawer: true
+	}
 
-        const {role, isAuthenticated, children} = this.props;
+	sideDrawerClosedHandler = () => {
+	    this.setState( { showSideDrawer: false } );
+	}
 
-        return (
-            <div className={styles.layout}>
-                <Toolbar isAuthenticated={isAuthenticated}/>
-                <div>
-                    {children}
-                </div>
-                <Footer/>
-            </div>
-        )
-    }
+	sideDrawerToggleHandler = () => {
+	    this.setState( ( prevState ) => {
+	        return { showSideDrawer: !prevState.showSideDrawer };
+	    } );
+	};
+
+	render(){
+
+	    const {role, isAuthenticated, children} = this.props;
+
+	    return (
+	        <div className={styles.layout}>
+	            <Toolbar
+	                open={this.state.showSideDrawer}
+	                isAuthenticated={isAuthenticated}
+	                drawerToggleClicked={this.sideDrawerToggleHandler} />
+	            <SideDrawer
+	                isAuthenticated={this.props.isAuthenticated}
+	                open={this.state.showSideDrawer}
+	                drawerToggleClicked={this.sideDrawerToggleHandler}
+	                closed={this.sideDrawerClosedHandler} />
+	            <div className={styles.content}>
+	                {children}
+	            </div>
+	            <Footer/>
+	        </div>
+	    )
+	}
 }
 
 
