@@ -8,9 +8,16 @@
     border-left: 1px solid #eee;
     border-collapse: collapse;
     display: flex;
-    padding: 0 10px;
     align-items: center;
     overflow-y: scroll;
+    justify-content: left;
+    line-break: normal;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.BookTableElement div:first-child {
+    padding: 0;
 }
 
 .BookTableElement div::-webkit-scrollbar {
@@ -28,4 +35,15 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+.BookTableElementImage {
+    max-height: 120px;
+    max-width: 80px;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    justify-self: center;
+}
+
+
 

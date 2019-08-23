@@ -10,7 +10,7 @@ const bookTable = (props) => {
 
     let style = {
         display: 'grid',
-        gridTemplateColumns: 'minmax(100px,150px) minmax(150px,1fr) minmax(150px,1fr) 150px',
+        gridTemplateColumns: '80px minmax(150px,1fr) minmax(150px,1fr) 150px',
         gridTemplateRows: '50px',
 
     };
