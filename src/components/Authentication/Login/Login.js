@@ -27,7 +27,6 @@ class Login extends Component {
 
         const { password, email } = this.state;
         const { error, isLoading, isAuthenticated } = this.props;
-        console.log(process.env);
 
         return (
             <LoginView

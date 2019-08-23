@@ -3,20 +3,23 @@ import { MediaQuery } from 'react-responsive'
 
 import Login from '../components/Authentication/Login/Login';
 import styles from './pageStyles.module.css'
+import Box from '../components/shared/UI/Box/Box';
 
 const loginPage = () => {
 
     return (
         <Fragment>
-            <MediaQuery maxWidth={700}>
+            <MediaQuery maxWidth={599}>
                 <div className={styles.containerMobile}>
                     <Login/>
                 </div>
             </MediaQuery>
-            <MediaQuery minWidth={701}>
+            <MediaQuery minWidth={600}>
                 <div className={`${styles.containerDesktop} ${styles.authenticationDesktop}`}>
                     <div style={{gridColumn: 2}}>
-                        <Login/>
+                        <Box>
+                            <Login/>
+                        </Box>
                     </div>
                 </div>
             </MediaQuery>

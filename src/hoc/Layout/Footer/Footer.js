@@ -1,8 +1,8 @@
 import React from 'react';
-import './Footer.css';
+import * as styles from './Footer.module.css';
 
 const footer = props => (
-    <footer className="Footer" style={props.style}>
+    <footer className={styles.footer}>
             © 2019 | VIKING NOTES
     </footer>
 );

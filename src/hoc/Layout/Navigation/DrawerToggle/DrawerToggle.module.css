@@ -1,0 +1,60 @@
+.DrawerToggle {
+    width: 52px;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DrawerToggle div {
+    width: 90%;
+    height: 4px;
+    background-color: white;
+    -webkit-transition: transform 0.5s ease-out, opacity 0.5s;
+}
+
+.Open div:first-child {
+     transform:rotate(46deg);
+     -webkit-transform:rotate(46deg);
+     transform-origin:top left;
+     -webkit-transform-origin: top left;
+ }
+
+.Open div:last-child {
+    transform:rotate(-46deg);
+    -webkit-transform:rotate(-46deg);
+    transform-origin: bottom left;
+    -webkit-transform-origin: bottom left;
+}
+
+.Open div:nth-child(2) {
+    opacity: 0;
+}
+
+.Close div:first-child {
+    transform:rotate(0);
+    -webkit-transform:rotate(0);
+    transform-origin:top left;
+    -webkit-transform-origin: top left;
+}
+
+.Close div:last-child {
+    transform:rotate(0);
+    -webkit-transform:rotate(0);
+    transform-origin: bottom left;
+    -webkit-transform-origin: bottom left;
+}
+
+.Close div:nth-child(2) {
+    opacity: 1;
+}
+
+@media (min-width: 599px) {
+    .DrawerToggle {
+        display: none;
+    }
+}

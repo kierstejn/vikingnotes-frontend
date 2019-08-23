@@ -47,7 +47,7 @@ const questionlist = (props) => {
 
 
     return (
-        <Box>
+        <Box style={{padding:0}}>
             {list}
             {addQuestionButton}
         </Box>

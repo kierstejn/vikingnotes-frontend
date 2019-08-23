@@ -3,6 +3,7 @@
     overflow: auto;
     padding: 20px;
     text-align: left;
+    max-height: 100%;
 }
 
 .MCQ hr {
@@ -10,7 +11,17 @@
     height: 1px;
     border: 0;
     border-top: 1px solid #eee;
-    margin: 10px;
+    margin: 10px 0;
     padding: 0;
+    width: 100%;
+}
+
+.MCQHeader {
+    display: inline;
+}
+
+.ProgressCounter {
+    display: inline;
+    float: right;
 }
 

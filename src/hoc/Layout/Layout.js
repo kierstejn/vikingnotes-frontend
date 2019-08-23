@@ -1,56 +1,53 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
-import Toolbar from './Toolbar/Toolbar';
-import Logo from '../../assets/images/LOGO-RØD-1.jpg';
-import './Layout.css';
-import Footer from './Footer/Footer';
-import * as actions from "../../store/actions";
 import connect from "react-redux/es/connect/connect";
+
+import Toolbar from './Navigation/Toolbar/Toolbar'
+import Logo from '../../assets/images/vikingnotes.png';
+import * as styles from './Layout.module.css';
+import Footer from './Footer/Footer';
+import SideDrawer from './Navigation/SideDrawer/SideDrawer';
+
 
 
 class Layout extends Component {
 
-    render(){
+	state = {
+	    showSideDrawer: true
+	}
 
-        const {role, isAuthenticated, children} = this.props;
+	sideDrawerClosedHandler = () => {
+	    this.setState( { showSideDrawer: false } );
+	}
 
-        const layoutStyle = {
-            display: 'grid',
-            gridTemplateRows: '130px 50px auto 50px',
-            gridTemplateColumns: '1fr',
-            minHeight: '100vh'
-        };
+	sideDrawerToggleHandler = () => {
+	    this.setState( ( prevState ) => {
+	        return { showSideDrawer: !prevState.showSideDrawer };
+	    } );
+	};
 
-        const topBarStyle = {
-            gridRow: 1,
-            height: '100%',
-            backgroundColor: '255',
-            textAlign: 'center'
-        };
+	render(){
 
-        const pictureStyle = {
-            height: '100px',
-            margin: '15px'
-        };
+	    const {role, isAuthenticated, children} = this.props;
 
-        return (
-            <div className={"Layout"} style={layoutStyle}>
-                <div style={topBarStyle}>
-                    <img src={Logo} style={pictureStyle}/>
-                </div>
-
-                <Toolbar role={role} isAuthenticated={isAuthenticated} style={{gridRow: 2, height: '100%'}}/>
-
-                <div style={{gridRow: 3}}>
-                    <div>
-                        {children}
-                    </div>
-                </div>
-                <Footer style={{gridRow: 4}}/>
-            </div>
-        )
-    }
+	    return (
+	        <div className={styles.layout}>
+	            <Toolbar
+	                open={this.state.showSideDrawer}
+	                isAuthenticated={isAuthenticated}
+	                drawerToggleClicked={this.sideDrawerToggleHandler} />
+	            <SideDrawer
+	                isAuthenticated={this.props.isAuthenticated}
+	                open={this.state.showSideDrawer}
+	                drawerToggleClicked={this.sideDrawerToggleHandler}
+	                closed={this.sideDrawerClosedHandler} />
+	            <div className={styles.content}>
+	                {children}
+	            </div>
+	            <Footer/>
+	        </div>
+	    )
+	}
 }
 
 
