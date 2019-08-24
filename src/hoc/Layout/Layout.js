@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import connect from "react-redux/es/connect/connect";
 
 import Toolbar from './Navigation/Toolbar/Toolbar'
-import Logo from '../../assets/images/vikingnotes.png';
 import * as styles from './Layout.module.css';
 import Footer from './Footer/Footer';
 import SideDrawer from './Navigation/SideDrawer/SideDrawer';

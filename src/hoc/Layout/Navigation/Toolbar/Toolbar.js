@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 
 import * as styles from './Toolbar.module.css';
 import NavigationItems from '../NavigationItems/NavigationItems';
-import Logo from "../../../../assets/images/vikingnotes.png";
+import Logo from "../../../../assets/images/LOGO-RØD-1.jpg";
 import DrawerToggle from '../DrawerToggle/DrawerToggle';
 
 

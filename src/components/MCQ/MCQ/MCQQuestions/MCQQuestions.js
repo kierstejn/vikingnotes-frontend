@@ -37,10 +37,14 @@ const mcqquestions = (props) => {
     return(
         <div className={styles.MCQQuestions}>
             <div>
-                {props.question.casetext ? <h4>Case:</h4> : null}
-                {props.question.casetext ? <p>{props.question.casetext}</p> : null}
-
-                <h4>Spørgsmål: {props.question.question}</h4>
+                <div>
+                    {props.question.casetext ? <h4 className={styles.MCQQuestionsCaseHeader}>Case: </h4> : null}
+                    {props.question.casetext ? <p className={styles.MCQQuestionsCaseText}>{props.question.casetext}</p> : null}
+				</div>
+                <div>
+                    <h4 className={styles.MCQQuestionsQuestionHeader}>Spørgsmål: </h4>
+                    <p className={styles.MCQQuestionsQuestionText}>{props.question.question}</p>
+				</div>
                 {mcqQuestionArray}
             </div>
 

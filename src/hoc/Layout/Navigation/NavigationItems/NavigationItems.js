@@ -7,7 +7,8 @@ const navigationItems = ( props ) => (
     <ul className={styles.NavigationItems} onClick={props.on}>
         {props.isAuthenticated ?
             <Fragment>
-                <NavigationItem link="/quiz/list">quizzer</NavigationItem>
+                <NavigationItem link="/book/list">bøger</NavigationItem>
+				<NavigationItem link="/book/create">opret bog</NavigationItem>
                 <NavigationItem link="/mcq/create">opret quiz</NavigationItem>
 				<NavigationItem link="/logout">log ud</NavigationItem>
             </Fragment>
